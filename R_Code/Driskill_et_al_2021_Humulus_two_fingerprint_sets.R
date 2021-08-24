@@ -272,9 +272,9 @@ Allele_dat = t(Mydat_genind_recoded$tab)
 
 Allele_dat[is.na(Allele_dat)] = 9
 
-write.table(Allele_dat, "/Users/mandiedriskill/Desktop/USDA/Hops/Final_scientific_documents/Data_availability/Hum_data.geno", row.names = FALSE, col.names = FALSE, sep = "")
+write.table(Allele_dat, "~/Hum_data.geno", row.names = FALSE, col.names = FALSE, sep = "")
 
-obj.snmf <- snmf("/Users/mandiedriskill/Desktop/USDA/Hops/Final_scientific_documents/Data_availability/Hum_data.geno", K =1:10, project = "new", repetitions = 10, entropy = TRUE)
+obj.snmf <- snmf("~/Hum_data.geno", K =1:10, project = "new", repetitions = 10, entropy = TRUE)
 
 
 plot(obj.snmf, col = "black", pch = 19, cex = 1.2, font = 2, font.lab = 2, type = "b")
