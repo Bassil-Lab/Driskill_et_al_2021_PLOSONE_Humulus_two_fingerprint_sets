@@ -7,8 +7,8 @@ The files in this github repository are associated with the manuscirpt "Two Fing
 
 Descriptions of the files in this repository follow:
 
-R_code:
+R_Code:
 This file contains all of the raw genotype files and R code used to identify clusters, create dendrograms, and perform PCoA in the bi-parental populations, the 629 samples, and the 190 samples shared between 9-SSR and 25 KASP SNP assays.
 
-Python_code: 
+Python_Code: 
 This file contains all of the python code used to create the genepop file. 
